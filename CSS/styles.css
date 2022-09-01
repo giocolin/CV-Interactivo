@@ -1,0 +1,21 @@
+body{
+    background-color: #ffffff;
+}
+.yo {
+    display: flex; align-items:center; justify-content: center;
+}
+.foto {
+    display: flex; width: auto;
+}
+.gris {
+    background-color: #D7E3E1;
+}
+.sobre-mi {
+    font-size: large; 
+}
+.proyectos {
+    text-align: center; margin-top: 30px; margin-bottom: 40px;
+}
+.contactame {
+    text-align: left; margin-top: 30px; margin-bottom: 30px;
+}

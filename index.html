@@ -4,49 +4,80 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"     integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/styles.css">
     <title>Giovanna Colin</title>
 </head>
 <body>
-<header>
-    <h1>¡Hola, soy Giovanna!</h1>
-</header>
-<section>
-    <hr>
-    <p>Soy desarrolladora y mercadóloga autodidacta. Para mi siempre ha sido importante que me apasione lo que hago, y ayudar a la gente es precisamente una de las cosas que más disfuto, es por ello que comencé mi carrera en marketing y posteriormente la complementé con desarrollo web con la intención de concentrarme en las PyMes y trabajadores independientes para poder brindarles las herramientas que necesitan para escalar sus negocios siendo consciente de todas las dificultades que enfrentan este tipo de empresas. </p>
-    <hr>
-</section>
-<section>
-    <h2>Síntomas de que necesitas mi ayuda:</h2>
-    <div>
-        <ul>
-            <li>Necesitas un sitio web para tu emprendimiento.</li>
-            <li>Tienes un emprendimiento online pero ya te estancaste, te urge una mentoría.</li>
-            <li>Quieres abrir un negocio online pero no sabes por dónde empezar.</li>
-        </ul>
+<section class="container"> <!--abro primer contenedor-->
+    <div class="row"> <!--linea-->
+        <div class="col yo"> <!--abro primera columna-->
+            <H1>¡Hola, soy Giovanna!</H1>
+        </div>
+        <div class="col"> <!--abro segunda columna-->
+            <img class="foto img-fluid "
+                src="https://res.cloudinary.com/ddwtcxgyc/image/upload/v1661989403/proyecto/foto1_brdorw.jpg" alt="...">
+        </div>
     </div>
 </section>
-<section>
-    <br>
+<section class="gris"> <!--aqui no necesito contenedor, solo una seccion-->
     <hr>
-    <h2>Proyectos que he desarrollado</h2>
-    <br>
-    <br>
-    <br>
-    <br>
+    <p class="sobre-mi" style="margin:80px;">(AQUI VA TEXTO ACERCA DE MI, SIGO TRABAJANDO EN ELLO) Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at tincidunt
+        massa. Nullam condimentum orci ac justo pulvinar placerat. Praesent placerat tellus iaculis commodo feugiat.
+        Aenean ipsum risus, rhoncus eget dapibus vel, eleifend nec ipsum. Vestibulum tortor sem, tempus sed commodo at,
+        fringilla vitae augue. Donec aliquet nisl ut porta feugiat. </p>
     <hr>
 </section>
-<section>
-    <h2>¡Consigue los objetivos de tu negocio!</h2>
-    <div>
-        <h3>Empieza aquí</h3>
+<section class = "container"> <!--abro nuevo contenedor-->
+    <div class = "row"> <!--abro primera linea dentro del contendor-->
+        <h2 class = "proyectos">Proyectos que he desarrollado</h2>
     </div>
-    <hr>
+    <div class = row> <!--abro segunda linea dentro del contenedor-->
+        <div class = col> <!--abro primera columna dentro de la segunda linea-->
+            <img class="foto img-fluid "
+                src="https://res.cloudinary.com/ddwtcxgyc/image/upload/v1661999960/proyecto/5643919_iodw6d.jpg" alt="...">
+        </div>
+        <div class = col> <!--abro segunda columna dentro de la segunda linea-->
+            <img class="foto img-fluid "
+                src="https://res.cloudinary.com/ddwtcxgyc/image/upload/v1661999966/proyecto/letter_c_business_logo_jyozca.jpg" alt="...">
+        </div>
+        <div class = col> <!--abro tercera columna dentro de la segunda linea-->
+            <img class="foto img-fluid "
+                src="https://res.cloudinary.com/ddwtcxgyc/image/upload/v1661999950/proyecto/62099_pryrp1.jpg" alt="...">
+        </div>
+        <div class = col> <!--abro cuarta columna dentro de la segunda linea-->
+            <img class="foto img-fluid "
+                src="https://res.cloudinary.com/ddwtcxgyc/image/upload/v1661999939/proyecto/40626_hy7i1m.jpg" alt="...">
+        </div>
+    </div>
 </section>
-<footer>
-    <h3>Contáctame</h3>
-    <br>
-    <a href="https://www.linkedin.com/in/giovanna-colin/">Linkedin</a>
-    <a href="mailto:giovanna.colin94@gmail.com">Email</a>
+<footer class="container"> <!--abro nuevo contenedor-->
+    <div class="row"> <!--abro fila-->
+        <h3 class="contactame">Contáctame</h3>
+    </div> <!--cierro fila-->
+    <div>
+        <a href="https://www.linkedin.com/in/giovanna-colin/">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <rect x="4" y="4" width="16" height="16" rx="2" />
+            <line x1="8" y1="11" x2="8" y2="16" />
+            <line x1="8" y1="8" x2="8" y2="8.01" />
+            <line x1="12" y1="16" x2="12" y2="11" />
+            <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+          </svg></a>
+          <a href="mailto:giovanna.colin94@gmail.com">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-gmail" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M16 20h3a1 1 0 0 0 1 -1v-14a1 1 0 0 0 -1 -1h-3v16z" />
+            <path d="M5 20h3v-16h-3a1 1 0 0 0 -1 1v14a1 1 0 0 0 1 1z" />
+            <path d="M16 4l-4 4l-4 -4" />
+            <path d="M4 6.5l8 7.5l8 -7.5" />
+          </svg></a>
+          <br>
+          <br>
+    </div>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 </body>
 </html>
